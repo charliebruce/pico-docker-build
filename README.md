@@ -8,7 +8,7 @@ This Dockerfile describes a build environment capable of building the RP2040 exa
 git clone https://github.com/raspberrypi/pico-examples.git
 cd pico-examples
 docker run -v $(pwd):/work -w /work -it (this-image)
-cmake ..
+cmake .
 make
 ```
 
