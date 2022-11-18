@@ -1,5 +1,6 @@
 FROM ubuntu:22.04
 MAINTAINER Charlie Bruce <charliebruce@gmail.com>
+LABEL org.opencontainers.image.source https://github.com/charliebruce/pico-docker-build
 
 # Install tools
 RUN \
